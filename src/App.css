@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: gray;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart-toggle {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cart-toggle:hover {
+  background-color: red;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
