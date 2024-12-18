@@ -18,7 +18,7 @@ A simple e-commerce website built with ReactJS. It fetches products from the Fak
 ## Setup
 
 1. Clone this repository:
-   ```bash
+
    git clone https://github.com/your-username/ecommerce-react.git
 2. Install dependencies:
    npm install
