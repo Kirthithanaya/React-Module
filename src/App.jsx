@@ -25,6 +25,7 @@ const App = () => {
   const removeFromCart = (id) => {
     setCart(cart.filter((item) => item.id !== id));
   };
+
   return (
     <div className='app'>
       <header className="header">
